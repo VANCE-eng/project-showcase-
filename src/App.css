@@ -1,0 +1,105 @@
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  padding: 1rem 0 1.5rem;
+  border-bottom: 2px solid #111;
+  margin-bottom: 1.5rem;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.panel {
+  border: 2px solid #111;
+  border-radius: 10px;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.panel h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 1rem 1rem 0;
+}
+
+.panel form { padding: 1rem; }
+.field { margin-bottom: 1rem; }
+.field label { display: block; font-weight: 600; margin-bottom: 0.4rem; }
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1.5px solid #111;
+  border-radius: 8px;
+  background: #fff;
+  resize: vertical;
+}
+
+.btn {
+  padding: 0.55rem 1.5rem;
+  border: 1.5px solid #111;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover { background: #111; color: #fff; }
+
+.searchbar {
+  padding: 1rem;
+  border-bottom: 2px solid #111;
+  background: #f7f7f7;
+}
+
+.searchbar input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1.5px solid #111;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0.5rem 1rem 1rem;
+  background: #fff;
+}
+
+.project-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 0;
+}
+
+.thumb {
+  width: 64px;
+  height: 64px;
+  border: 1.5px solid #111;
+  border-radius: 8px;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+.thumb-x { font-size: 1.8rem; color: #999; line-height: 1; }
+
+.project-body h3 { font-size: 1.1rem; font-weight: 600; }
+.project-body p { font-size: 0.9rem; color: #333; }
+.empty { padding: 1rem 0; color: #666; }
